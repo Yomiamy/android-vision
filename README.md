@@ -38,8 +38,7 @@ onActivityResult(int requestCode, int resultCode, Intent data) {
 
 ![image](https://github.com/YomiRY/android-vision/blob/master/visionSamples/FaceTracker/images/face_track_camera.png)
 
-Face Detect SignIn/SignOut
-==========================
+### **Face Detect SignIn/SignOut**
 
 ![image](https://github.com/YomiRY/android-vision/blob/master/visionSamples/FaceTracker/images/signing_application1.png)
 
