@@ -130,7 +130,7 @@ class FaceScaningActivity: AppCompatActivity() {
 
     private fun signSuccess(employeeJsonStr:String) {
         Log.d("randy", ">>> reInitOnFail")
-        Utils.playSound(this, R.raw.voice_sign_in_failed, null)
+        Utils.playSound(this, R.raw.voice_sign_in_success, null)
         FaceSigningResultActivity.startActivity(this@FaceScaningActivity, employeeJsonStr)
         finish()
     }
